@@ -19,11 +19,11 @@ public class Welcome extends AppCompatActivity {
         City=findViewById(R.id.city_set);
 
         Intent intent=getIntent();
-        String firstname_set=intent.getStringExtra("f_name");
-        String email_set=intent.getStringExtra("email");
-        String brc_set=intent.getStringExtra("brch");
-        String cy_set=intent.getStringExtra("city");
-        String gn_set=intent.getStringExtra("gender");
+        String firstname_set=intent.getStringExtra("Name");
+        String email_set=intent.getStringExtra("Email");
+        String brc_set=intent.getStringExtra("Branch");
+        String cy_set=intent.getStringExtra("City");
+        String gn_set=intent.getStringExtra("Gender");
 
 
         Name.setText("First Name:"+firstname_set);
